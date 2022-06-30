@@ -1,0 +1,72 @@
+* {
+/*   color: white; */
+  font-family: cursive;
+}
+
+body {
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto 4em auto;
+}
+
+main p {
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.2);
+ box-shadow:
+    -3px -3px 3px rgba(255,255,255,0.2),
+    3px -3px 5px rgba(255,255,255,0.2),
+    3px 3px 5px rgba(255,255,255,0.2),
+    -3px 3px 5px rgba(255,255,255,0.2);
+  border-radius: 6px;
+}
+
+.center {
+  text-align: center
+}
+
+a:link {
+  color: white;
+}
+
+a:hover,
+a:focus {
+  background-color: rgba(2, 166, 181, 0.3);
+  box-shadow:
+    -3px -3px 5px rgba(2, 166, 181, 0.3),
+    -3px 3px 5px rgba(2, 166, 181, 0.3),
+    3px 3px 5px rgba(2, 166, 181, 0.3),
+    3px -3px 5px rgba(2, 166, 181, 0.3);
+  border-radius: 6px;
+}
+
+a:active {
+  color: #a3cbd9;
+}
+
+a:visited {
+  color: rgb(199, 124, 255);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color:#0f0f0f;
+}
+
+footer nav {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+footer nav a {
+  margin: 0 2em;
+}
